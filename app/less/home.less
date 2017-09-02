@@ -1,0 +1,133 @@
+.home {
+  padding-bottom: 60px;
+
+  .modules {
+    padding: 30px 0
+  }
+
+  .modules:before,
+  .modules:after {
+    content: ' ';
+    display: table;
+    line-height: 0;
+  }
+  .modules:after {
+    clear: both;
+  }
+
+  .module {
+    float: left;
+    width: 16.6666666%;
+    height: 150px;
+    position: relative;;
+
+    &.property {
+      background: #71625b url(../img/home/property.png) 124px 20px no-repeat;
+
+    }
+    &.equipment {
+      background: #85c226 url(../img/home/equipment.png) 120px 20px no-repeat;
+    }
+    &.asset {
+      background: #31b2eb url(../img/home/asset.png) 132px 20px no-repeat;
+    }
+    &.hotel {
+      background: #0075ba url(../img/home/hotel.png) 126px 20px no-repeat;
+    }
+    &.ring {
+      background: #c7b551 url(../img/home/ring.png) 120px 20px no-repeat;
+    }
+    &.preliminary {
+      background: #b4783d url(../img/home/preliminary.png) 124px 20px no-repeat;
+    }
+  }
+
+  .module-name {
+    position: absolute;
+    left: 20px;
+    bottom: 26px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .module-small {
+    color: #cccccc;
+    font-size: 12px;
+  }
+
+  .enterprise-box {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .row {
+      margin-right: -20px;
+      margin-left: -20px;
+    }
+    .col-md-6 {
+      padding-right: 20px;
+      padding-left: 20px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+
+  .enterprise-head {
+    height: 60px;
+    line-height: 60px;
+  }
+  .profile-title {
+    background: url(../img/home/place1.png) 164px 50% no-repeat;
+  }
+  .news-title {
+    background: url(../img/home/place2.png) 152px 50% no-repeat;
+  }
+
+  .enterprise-body {
+    color: #999;
+    line-height: 28px;
+
+    a, a:hover {
+      color: #32acad;
+    }
+
+    .media {
+      border: 1px solid #efefef;
+    }
+
+    .media-heading {
+      color: #666666;
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 6px;
+      display: block;
+    }
+  }
+
+  .ul-list {
+    margin-left: 20px;
+    a {
+      color: inherit;
+      float: left;
+    }
+    .list-time {
+      float: right;
+      color: #999999;
+    }
+  }
+
+  .profile-body {
+    border-bottom: 1px solid #efefef;
+
+    p {
+      margin-bottom: 8px;
+    }
+  }
+
+}
