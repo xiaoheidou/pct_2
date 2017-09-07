@@ -1,0 +1,17 @@
+@@include('./command/head.html')
+@@include('./command/header.html',{"active":"news"})
+<div class="main-banner">
+    <img class="img-responsive" src="../img/news/banner.jpg" alt=""/>
+</div>
+<div class="main-head">
+    <div class="main-container"><img src="../img/news/head.png" alt="news"/></div>
+</div>
+<div class="main-body">
+    <div class="main-container">
+        @@include('./command/sidebar/party.html',{"active":"员工活动"})
+        <div class="main-content">
+
+        </div>
+    </div>
+</div>
+@@include('./command/footer.html')

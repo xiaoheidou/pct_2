@@ -1,0 +1,19 @@
+@@include('./command/head.html')
+@@include('./command/header.html',{"active":"about"})
+<div class="main-banner">
+    <img class="img-responsive" src="../img/about/banner.jpg" alt=""/>
+</div>
+<div class="main-head">
+    <div class="main-container"><img src="../img/about/head.png" alt="about us"/></div>
+</div>
+<div class="main-body">
+    <div class="main-container">
+        @@include('./command/sidebar/about.html',{"active":"组织机构"})
+        <div class="main-content about">
+            <div class="text-center">
+                <img src="../img/about/zzjg.png">
+            </div>
+        </div>
+    </div>
+</div>
+@@include('./command/footer.html')
